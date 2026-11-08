@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="traveloka-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#151515"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="100" rx="16" fill="url(#traveloka-bg)"/>
+  <g transform="translate(100, 50)">
+    <!-- Traveloka logo - airplane/location pin mark -->
+    <path d="M0-22 L6-10 L18-10 L22-2 L14 6 L6 10 L-6 10 L-14 6 L-22-2 L-18-10 L-6-10 Z" fill="#00A78E"/>
+    <circle cx="0" cy="-4" r="3" fill="#0a0a0a"/>
+    <text x="0" y="28" text-anchor="middle" font-family="'Space Grotesk', Arial, sans-serif" font-weight="700" font-size="14" fill="#00A78E" letter-spacing="1">TRAVELOKA</text>
+  </g>
+</svg>

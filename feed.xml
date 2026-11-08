@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rasya Vikri Rizqullah - Blog &amp; Writeups</title>
+    <link>https://sec-rasya.dev/</link>
+    <description>Professional web penetration tester sharing bug bounty writeups, vulnerability research, and security tooling.</description>
+    <language>en</language>
+    <lastBuildDate>Sat, 08 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://sec-rasya.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://sec-rasya.dev/assets/og-image.svg</url>
+      <title>Rasya Vikri Rizqullah</title>
+      <link>https://sec-rasya.dev/</link>
+    </image>
+    <item>
+      <title>JWT Algorithm Confusion: From Theory to $15k Bounty</title>
+      <link>https://sec-rasya.dev/writeup.html?type=blog&amp;slug=jwt-algorithm-confusion</link>
+      <guid isPermaLink="true">https://sec-rasya.dev/writeup.html?type=blog&amp;slug=jwt-algorithm-confusion</guid>
+      <description><![CDATA[Deep dive into RS256 to HS256 confusion attacks, real-world exploitation, and responsible disclosure timeline.]]></description>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
+      <category>Bug Bounty</category>
+      <category>JWT</category>
+      <category>Auth</category>
+    </item>
+    <item>
+      <title>Blind SQL Injection: Time-Based Exploitation Techniques</title>
+      <link>https://sec-rasya.dev/writeup.html?type=blog&amp;slug=blind-sqli-time-based</link>
+      <guid isPermaLink="true">https://sec-rasya.dev/writeup.html?type=blog&amp;slug=blind-sqli-time-based</guid>
+      <description><![CDATA[Complete guide to time-based blind SQLi: detection, optimization, WAF bypass, and data exfiltration strategies.]]></description>
+      <pubDate>Thu, 20 Nov 2023 00:00:00 GMT</pubDate>
+      <category>Penetration Testing</category>
+      <category>SQLi</category>
+      <category>WAF Bypass</category>
+    </item>
+    <item>
+      <title>GraphQL Security: Introspection to BOLA Chain</title>
+      <link>https://sec-rasya.dev/writeup.html?type=blog&amp;slug=graphql-introspection-bola</link>
+      <guid isPermaLink="true">https://sec-rasya.dev/writeup.html?type=blog&amp;slug=graphql-introspection-bola</guid>
+      <description><![CDATA[How enabled introspection leads to Broken Object Level Authorization, with real case study and remediation.]]></description>
+      <pubDate>Mon, 10 Sep 2023 00:00:00 GMT</pubDate>
+      <category>API Security</category>
+      <category>GraphQL</category>
+      <category>BOLA</category>
+    </item>
+  </channel>
+</rss>

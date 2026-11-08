@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="description" content="Cyber Security Portfolio - Web Penetration Testing Specialist">
+    <meta name="theme-color" content="#000000">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sec-rasya.dev">
+    <link rel="sitemap" href="sitemap.xml">
+    <link rel="alternate" type="application/rss+xml" title="Security Researcher Blog" href="feed.xml">
+    <link rel="security.txt" href="security.txt">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"></noscript>
+    <link rel="stylesheet" href="styles.css?v=20261111">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="assets/favicon-32.svg" sizes="32x32" type="image/svg+xml">
+    <link rel="icon" href="assets/favicon-192.svg" sizes="192x192" type="image/svg+xml">
+    <link rel="icon" href="assets/favicon-512.svg" sizes="512x512" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <title>CyberSec Portfolio | Web Penetration Testing</title>
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <canvas id="particles-bg" aria-hidden="true"></canvas>
+
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="#" class="logo" aria-label="RVR Home">
+                <span class="logo-icon">[</span>
+                <span class="logo-text">RVR</span>
+                <span class="logo-icon">]</span>
+            </a>
+            <ul class="nav-links" id="nav-links" role="menubar">
+                <li role="none"><a href="#home" class="nav-link active" role="menuitem" data-i18n="nav.home">Home</a></li>
+                <li role="none"><a href="#about" class="nav-link" role="menuitem" data-i18n="nav.about">About</a></li>
+                <li role="none"><a href="#skills" class="nav-link" role="menuitem" data-i18n="nav.skills">Skills</a></li>
+                <li role="none"><a href="#projects" class="nav-link" role="menuitem" data-i18n="nav.projects">Projects</a></li>
+                <li role="none"><a href="#blog" class="nav-link" role="menuitem" data-i18n="nav.blog">Blog</a></li>
+                <li role="none"><a href="#tools" class="nav-link" role="menuitem" data-i18n="nav.tools">Tools</a></li>
+                <li role="none"><a href="#timeline" class="nav-link" role="menuitem" data-i18n="nav.timeline">Timeline</a></li>
+                <li role="none"><a href="#hall" class="nav-link" role="menuitem" data-i18n="nav.hall">Hall of Fame</a></li>
+                <li role="none"><a href="#talks" class="nav-link" role="menuitem" data-i18n="nav.talks">Talks</a></li>
+                <li role="none"><a href="#certifications" class="nav-link" role="menuitem" data-i18n="nav.certs">Certs</a></li>
+                <li role="none"><a href="#contact" class="nav-link" role="menuitem" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="lang-toggle" id="lang-toggle" style="display:none">
+                    <button class="lang-btn" data-lang="en" aria-pressed="true">EN</button>
+                    <button class="lang-btn" data-lang="id" aria-pressed="false">ID</button>
+                </div>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" style="display:none" aria-pressed="false">
+                    <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+                    <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main">
+        <!-- Hero Dashboard (Terminal + Profile Card) -->
+        <header class="hero dashboard-hero" id="home" role="banner">
+            <div class="dashboard-container">
+                <div class="dashboard-split" id="dashboard-split" role="region" aria-label="Profile dashboard">
+                    <div class="simple-card" id="simple-card" aria-label="Profile summary"></div>
+                    <div class="simple-terminal" id="simple-terminal" aria-label="Terminal profile"></div>
+                </div>
+            </div>
+            <div class="live-badge" id="live-badge" style="display:none"></div>
+            <div class="scroll-indicator" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 5v14M19 12l-7 7-7-7"/>
+                </svg>
+            </div>
+        </header>
+
+        <!-- About -->
+        <section class="section" id="about" aria-labelledby="about-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag" data-i18n="about.background">// Background</span>
+                    <h2 class="section-title" id="about-title" data-i18n="about.title">Who Am I?</h2>
+                    <p class="section-desc">Cybersecurity enthusiast turned professional penetration tester.</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="card-header">
+                            <span class="card-icon" aria-hidden="true">[DEV]</span>
+                            <h3 data-i18n="about.background">Background</h3>
+                        </div>
+                        <p></p>
+                        <div class="tech-stack" aria-label="Technology stack"></div>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-header">
+                            <span class="card-icon" aria-hidden="true">[ATK]</span>
+                            <h3 data-i18n="about.specializations">Specializations</h3>
+                        </div>
+                        <ul class="specialization-list" aria-label="Specializations"></ul>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-header">
+                            <span class="card-icon" aria-hidden="true">[MTH]</span>
+                            <h3 data-i18n="about.methodology">Methodology</h3>
+                        </div>
+                        <div class="methodology-steps" aria-label="Methodology steps"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section" id="skills" aria-labelledby="skills-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag" data-i18n="skills.vulns">// Technical Skills</span>
+                    <h2 class="section-title" id="skills-title" data-i18n="skills.title">Arsenal</h2>
+                    <p class="section-desc">Technical proficiencies across vulnerabilities, tools, and languages.</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">
+                            <span class="cat-icon">[</span>
+                            <span data-i18n="skills.vulns">Web Vulnerabilities</span>
+                            <span class="cat-icon">]</span>
+                        </h3>
+                        <div class="skill-bars" role="list" aria-label="Vulnerability skills"></div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">
+                            <span class="cat-icon">[</span>
+                            <span data-i18n="skills.tools">Tools & Frameworks</span>
+                            <span class="cat-icon">]</span>
+                        </h3>
+                        <div class="tools-grid" role="list" aria-label="Tools proficiency"></div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">
+                            <span class="cat-icon">[</span>
+                            <span data-i18n="skills.langs">Programming & Scripting</span>
+                            <span class="cat-icon">]</span>
+                        </h3>
+                        <div class="lang-grid" role="list" aria-label="Programming languages"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section" id="projects" aria-labelledby="projects-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag" data-i18n="projects.title">// Selected Works</span>
+                    <h2 class="section-title" id="projects-title" data-i18n="projects.title">Projects & Findings</h2>
+                    <p class="section-desc">Notable vulnerabilities discovered and security assessments performed.</p>
+                </div>
+                <div class="projects-grid" role="list" aria-label="Projects"></div>
+            </div>
+        </section>
+
+        <!-- Blog -->
+        <section class="section" id="blog" aria-labelledby="blog-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag" data-i18n="blog.title">// Writeups & Articles</span>
+                    <h2 class="section-title" id="blog-title" data-i18n="blog.title">Blog & Writeups</h2>
+                    <p class="section-desc">Deep dives into vulnerability research and exploitation techniques.</p>
+                </div>
+                <div class="blog-grid" role="list" aria-label="Blog posts"></div>
+            </div>
+        </section>
+
+        <!-- Tools -->
+        <section class="section" id="tools" aria-labelledby="tools-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag" data-i18n="tools.title">// Open Source Tools</span>
+                    <h2 class="section-title" id="tools-title" data-i18n="tools.title">Tools</h2>
+                    <p class="section-desc">Security tooling built for the community.</p>
+                </div>
+                <div class="tools-showcase" role="list" aria-label="Tools showcase"></div>
+            </div>
+        </section>
+
+        <!-- Timeline -->
+        <section class="section" id="timeline" aria-labelledby="timeline-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag" data-i18n="timeline.title">// Career Timeline</span>
+                    <h2 class="section-title" id="timeline-title" data-i18n="timeline.title">Timeline</h2>
+                    <p class="section-desc">Key milestones in the journey.</p>
+                </div>
+                <div class="timeline" role="list" aria-label="Career timeline"></div>
+            </div>
+        </section>
+
+        <!-- Hall of Fame -->
+        <section class="section" id="hall" aria-labelledby="hall-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag" data-i18n="hall.title">// Hall of Fame</span>
+                    <h2 class="section-title" id="hall-title" data-i18n="hall.title">Bounty Board</h2>
+                    <p class="section-desc">Organizations that have recognized and rewarded security research.</p>
+                </div>
+                <div class="hall-grid" role="list" aria-label="Hall of Fame"></div>
+            </div>
+        </section>
+
+        <!-- Talks -->
+        <section class="section" id="talks" aria-labelledby="talks-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag" data-i18n="talks.title">// Speaking Engagements</span>
+                    <h2 class="section-title" id="talks-title" data-i18n="talks.title">Talks & Presentations</h2>
+                    <p class="section-desc">Conferences, meetups, and workshops where research was shared.</p>
+                </div>
+                <div class="talks-grid" role="list" aria-label="Talks"></div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="section" id="testimonials" aria-labelledby="testimonials-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">// Testimonials</span>
+                    <h2 class="section-title" id="testimonials-title">What Clients Say</h2>
+                    <p class="section-desc">Feedback from organizations and programs worked with.</p>
+                </div>
+                <div class="testimonials-grid" role="list" aria-label="Testimonials"></div>
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section class="section" id="certifications" aria-labelledby="certs-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag" data-i18n="certs.title">// Certifications</span>
+                    <h2 class="section-title" id="certs-title" data-i18n="certs.title">Credentials</h2>
+                    <p class="section-desc">Professional certifications and training completed.</p>
+                </div>
+                <div class="certs-grid" role="list" aria-label="Certifications"></div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag" data-i18n="contact.info">// Get In Touch</span>
+                    <h2 class="section-title" id="contact-title" data-i18n="contact.title">Contact</h2>
+                    <p class="section-desc">Available for freelance, full-time, and consulting engagements.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3 data-i18n="contact.info">Let's Work Together</h3>
+                        <p></p>
+                        <div class="contact-methods" aria-label="Contact methods"></div>
+                        <div class="pgp-block">
+                            <h4>PGP Public Key</h4>
+                            <pre aria-label="PGP public key"></pre>
+                            <button class="btn btn-sm btn-copy" onclick="copyPGP()" aria-label="Copy PGP key to clipboard">Copy Key</button>
+                        </div>
+                        <div class="live-status" id="live-status" style="display:none"></div>
+                    </div>
+                    <form class="contact-form" id="contact-form" aria-label="Contact form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe" autocomplete="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="john@company.com" autocomplete="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="pentest">Web Penetration Testing</option>
+                                <option value="api">API Security Assessment</option>
+                                <option value="bugbounty">Bug Bounty Program Setup</option>
+                                <option value="codereview">Secure Code Review</option>
+                                <option value="training">Security Training</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="scope">Scope & Details</label>
+                            <textarea id="scope" name="scope" rows="5" required placeholder="Describe your target, scope, timeline, and any specific requirements..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Send Request</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">[</span>
+                    <span class="logo-text">RVR</span>
+                    <span class="logo-icon">]</span>
+                    <p data-i18n="footer.tagline"></p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home" data-i18n="nav.home">Home</a>
+                    <a href="#about" data-i18n="nav.about">About</a>
+                    <a href="#projects" data-i18n="nav.projects">Projects</a>
+                    <a href="#blog" data-i18n="nav.blog">Blog</a>
+                    <a href="#tools" data-i18n="nav.tools">Tools</a>
+                    <a href="#contact" data-i18n="nav.contact">Contact</a>
+                </div>
+                <div class="footer-social" aria-label="Social links">
+                    <a href="#" aria-label="GitHub">[GH]</a>
+                    <a href="#" aria-label="Twitter">[TW]</a>
+                    <a href="#" aria-label="LinkedIn">[LI]</a>
+                    <a href="#" aria-label="HackerOne">[H1]</a>
+                    <a href="#" aria-label="Bugcrowd">[BC]</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p><span id="footer-year">2024</span> <span class="footer-text">RVR</span> Portfolio. Built with paranoia.</p>
+                <p class="disclaimer"></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="config.js?v=20261111"></script>
+    <script src="script.js?v=20261111"></script>
+</body>
+</html>

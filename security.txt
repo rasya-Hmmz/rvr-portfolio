@@ -1,0 +1,10 @@
+# Security.txt - Responsible Disclosure Policy
+# https://securitytxt.org/
+
+Contact: mailto:rasya.vikri@protonmail.com
+Encryption: https://sec-rasya.dev/assets/pgp-key.txt
+Preferred-Languages: en, id
+Canonical: https://sec-rasya.dev/security.txt
+
+# Valid for 365 days
+Expires: 2027-11-08T00:00:00.000Z

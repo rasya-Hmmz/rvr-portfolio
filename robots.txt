@@ -1,0 +1,16 @@
+# Rasya Vikri Rizqullah - Security Portfolio
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://sec-rasya.dev/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 10
+
+# Disallow admin/private paths (none exist, but good practice)
+Disallow: /assets/hall/
+Disallow: /config.js
+Disallow: /script.js
+Disallow: /styles.css
+Disallow: /writeup.js

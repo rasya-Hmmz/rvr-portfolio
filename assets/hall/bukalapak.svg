@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="bukalapak-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#151515"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="100" rx="16" fill="url(#bukalapak-bg)"/>
+  <g transform="translate(100, 50)">
+    <!-- Bukalapak logo mark - stylized B with loop -->
+    <path d="M-38-18 L-38 18 Q-38 24 -32 24 L-8 24 Q-2 24 2 20 L2 20 Q6 16 6 10 Q6 4 2 0 L2 -4 Q-2 -8 -8 -8 L-20 -8 Q-26 -8 -32 -4 L-32 4 Q-26 8 -20 8 L-8 8 Q-2 8 2 4 L2 0 Q-2 -4 -8 -4 L-20 -4 Q-26 -4 -32 0 L-32 10 Q-38 14 -38 18Z" fill="#E75947"/>
+    <!-- Inner cutout for the loop -->
+    <path d="M-30-12 L-30 12 Q-30 16 -24 16 L-12 16 Q-6 16 0 12 L0 12 Q4 8 4 4 Q4 0 0 -4 L0 -8 Q-4 -12 -12 -12 L-22 -12 Q-28 -12 -32 -8 L-32 2 Q-28 6 -22 6 L-12 6 Q-6 6 0 2 L0 -2 Q-4 -6 -12 -6 L-22 -6 Q-28 -6 -32 -2Z" fill="#0a0a0a"/>
+    <text x="0" y="28" text-anchor="middle" font-family="'Space Grotesk', Arial, sans-serif" font-weight="700" font-size="14" fill="#E75947" letter-spacing="1.2">BUKALAPAK</text>
+  </g>
+</svg>
